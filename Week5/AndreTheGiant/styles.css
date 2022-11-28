@@ -1,0 +1,120 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 100%;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+}
+
+#introPic {
+display: flex;
+justify-content: space-evenly;
+
+}
+
+#bio {
+  /* float: right; */
+  display:flex;
+  flex-direction:column;
+  /* position:relative; */
+}
+#bio > li {
+  padding: 5px;
+}
+
+#pro {
+  width: auto;
+}
+
+@media (max-width:844px) {
+header > h1{
+  display:flex;
+  flex-direction: column;;
+  align-items: flex-start;
+  font-size:20px;
+}
+
+img{
+  height:100%;
+  width:100%;
+}
+
+#top{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:50%;
+}
+
+#Stuff{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:50%;
+}
+
+#earlyLife{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:50%;
+}
+
+#earlyCareer{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+}
+#proCareer{
+  display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:50%;
+}
+#acting{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:50%;
+}
+
+#achievements{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:50%;
+}
+
+#personal{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+}
+}
+/* body{
+  background-color: blue;
+} */
